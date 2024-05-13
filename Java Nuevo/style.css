@@ -1,0 +1,95 @@
+.Logo{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Logo img{
+    width: 150px;
+}
+
+.Logo ul{
+    display: flex;
+    width: 100%;
+    justify-content: right ;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.Logo li{
+    list-style: none;
+    font-size: 28px;
+    margin: 0 15px;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: rgb(92, 230, 79);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.noticias { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias h1 {
+    font-size: 18px;
+    color: rgb(40, 40, 171);
+    text-align:justify;
+}
+
+.noticias p {
+    font-size: 18px;
+    text-align:justify;
+}
+
+.noticias button{
+    background-color: rgb(71, 71, 244);
+    color: black;
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(103, 103, 250);
+}
+
+footer a{
+    color: rgb(25, 25, 205);
+}
+
+footer h3{
+    color: rgb(61, 42, 42);
+}
+
+.btn-primary {
+    border: solid 1px rgb(2, 4, 100);
+    background-color: rgb(22, 114, 212);
+  }
+  
+.btn-primary:focus,
+.btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px rgb(22, 114, 212);
+    background-color: rgb(2, 4, 100);
+}
+  
